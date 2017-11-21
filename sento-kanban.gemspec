@@ -38,7 +38,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'unobtrusive_flash', '~> 3.3.1'
   s.add_dependency 'ranked-model', '~> 0.4.0'
   s.add_dependency 'interactor', '~> 3.1.0'
-  s.add_dependency 'searchkick', '~> 1.4.0'
+  s.add_dependency 'searchkick', '>= 1.4', '< 2.5'
   s.add_dependency 'gemoji', '~> 2.1.0'
   s.add_dependency 'tether-rails', '>= 1.3.3', '< 1.5.0'
   s.add_dependency 'chosen-rails', '~> 1.5.2'
